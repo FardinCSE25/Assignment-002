@@ -7,25 +7,50 @@
     <title>Assignment 002</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://kit.fontawesome.com/638135e705.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="fontstyle.css">
 </head>
 
 
 <body>
-    <header class="mt-[30px] mb-[120px] mx-[150px]">
-        <section class="mb-[120px] flex justify-between items-center">
+    <header class="mt-[30px] mb-[120px] mx-4 lg:mx-[150px] ">
+        <section class="mb-[120px] flex justify-between items-center ">
             <img src="assets/logo.png" alt="">
             <nav>
                 <ul class="flex gap-[48px]">
-                    <li class="xl:inline hidden text-[#252432] font-bold"><a href="">Home</a></li>
-                    <li class="xl:inline hidden text-[#8987A1] font-medium"><a href="">Shop</a></li>
-                    <li class="xl:inline hidden text-[#8987A1] font-medium"><a href="">About us</a></li>
-                    <li><a href=""><i class="fa-regular fa-cart-shopping"></i> Cart ($56)</a></li>
+                    <li class="lg:inline hidden text-[#252432] font-bold"><a href="">Home</a></li>
+                    <li class="lg:inline hidden text-[#8987A1] font-medium"><a href="">Shop</a></li>
+                    <li class="lg:inline hidden text-[#8987A1] font-medium"><a href="">About us</a></li>
+                    <li class=""><a href=""><i class="fa-regular fa-cart-shopping"></i> Cart ($56)</a></li>
                 </ul>
             </nav>
-
         </section>
-
+        <section class="lg:flex flex-row-reverse justify-between mx-auto items-center">
+            <img class="mb-7" src="assets/hero-flower.png" alt="">
+            <div class="">
+                <h1 class="noto-serif-normal font-bold text-6xl">
+                    ALWAYS <span class="text-[#E95A08]">FRESH <br> FLOWERS</span></h1>
+                <p class=" inter-normal max-w-[570px] text-[22px] mt-[13px] para-1">Indulge your senses with the beauty
+                    and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety
+                    of fresh flowers that are perfect for any occasion. </p>
+            </div>
+        </section>
     </header>
+    <main>
+        <section>
+            <h1 class="noto-serif-normal font-bold text-2xl text-center mb-4"><span class="text-[#E95A08]">Our</span> Plants
+            </h1>
+            <p class="inter-normal text-sm text-center mx-7 text-[#000000] opacity-50 mb-7">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+        </section>
+    </main>
 
 </body>
 
